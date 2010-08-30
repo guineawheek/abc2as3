@@ -1,0 +1,347 @@
+<!-- Parsing swf jar:file:/C:/Users/aaron/Projects/Simple/bin/Simple.swc!/library.swf -->
+<!-- ?xml version="1.0" encoding="UTF-8"? -->
+<swf xmlns='http://macromedia/2003/swfx' version='10' framerate='24' size='10000x7500' compressed='true' >
+  <!-- framecount=1 length=2705 -->
+  <FileAttributes hasMetadata='true' actionScript3='true' suppressCrossDomainCaching='false' swfRelativeUrls='false' useNetwork='true'/>
+  <Metadata>
+    <rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'><rdf:Description rdf:about='' xmlns:dc='http://purl.org/dc/elements/1.1'><dc:format>application/x-shockwave-flash</dc:format><dc:title>Adobe Flex 4 Application</dc:title><dc:description>http://www.adobe.com/products/flex</dc:description><dc:publisher>unknown</dc:publisher><dc:creator>unknown</dc:creator><dc:language>EN</dc:language><dc:date>Aug 3, 2010</dc:date></rdf:Description></rdf:RDF>
+  </Metadata>
+  <EnableDebugger2 password='$1$r2$Sj.ihwvWch13mHVwxnwg2/' reserved='0x1975'/>
+  <!-- error: SWD not found at url jar:file:/C:/Users/aaron/Projects/Simple/bin/Simple.swc!/library.swd -->
+  <DebugID uuid='27B981667843F61E38BF34FA71A77394'/>
+  <ScriptLimits scriptRecursionLimit='1000' scriptTimeLimit='60'/>
+  <SetBackgroundColor color='#FFFFFF'/>
+  <ProductInfo product='Adobe Flex' edition='' version='4.1' build='16076' compileDate='8/3/10 11:21 PM'/>
+  <DoABC2>
+    16 0 minor version
+    46 0 major version
+    0 Integer Constant Pool Entries
+    0 Unsigned Integer Constant Pool Entries
+    0 Floating Point Constant Pool Entries
+    28 String Constant Pool Entries
+     TestPackage:BareClass
+     
+     C:\Users\aaron\Projects\Simple\src;TestPackage;BareClass.as
+     TestPackage:BareClass/BareClass
+     TestPackage:BareClass/bareFunction
+     void
+     mMemberVariable
+     TestPackage:BareClass/memberVariable/get
+     int
+     value
+     TestPackage:BareClass/memberVariable/set
+     __go_to_definition_help
+     file
+     C:\Users\aaron\Projects\Simple\src\TestPackage\BareClass.as
+     pos
+     64
+     bareFunction
+     150
+     memberVariable
+     209
+     292
+     TestPackage
+     BareClass
+     Object
+     __go_to_ctor_definition_help
+     108
+     37
+    5 Namespace Constant Pool Entries
+     private
+     
+     TestPackage
+     TestPackage:BareClass
+    0 Namespace Set Constant Pool Entries
+    8 MultiName Constant Pool Entries
+    :void
+    private:mMemberVariable
+    :int
+    :bareFunction
+    :memberVariable
+    TestPackage:BareClass
+    :Object
+    6 Method Entries
+    (): 
+    TestPackage:BareClass/BareClass(): 
+    TestPackage:BareClass/bareFunction()::void 
+    TestPackage:BareClass/memberVariable/get()::int 
+    TestPackage:BareClass/memberVariable/set(:int)::void 
+    (): 
+    6 Metadata Entries
+    __go_to_definition_help file pos C:\Users\aaron\Projects\Simple\src\TestPackage\BareClass.as 64
+    __go_to_definition_help file pos C:\Users\aaron\Projects\Simple\src\TestPackage\BareClass.as 150
+    __go_to_definition_help file pos C:\Users\aaron\Projects\Simple\src\TestPackage\BareClass.as 209
+    __go_to_definition_help file pos C:\Users\aaron\Projects\Simple\src\TestPackage\BareClass.as 292
+    __go_to_ctor_definition_help file pos C:\Users\aaron\Projects\Simple\src\TestPackage\BareClass.as 108
+    __go_to_definition_help file pos C:\Users\aaron\Projects\Simple\src\TestPackage\BareClass.as 37
+    1 Instance Entries
+    TestPackage:BareClass extends :Object 
+    4 Traits Entries
+    private:mMemberVariable
+    :bareFunction
+    :memberVariable
+    :memberVariable
+    1 Class Entries
+    TestPackage:BareClass extends Class 
+    0 Traits Entries
+    1 Script Entries
+    script0 
+    1 Traits Entries
+    TestPackage:BareClass
+    6 Method Bodies
+    function TestPackage:BareClass::TestPackage:BareClass$cinit():
+    maxStack:1 localCount:1 initScopeDepth:3 maxScopeDepth:4
+        getlocal0     	
+        pushscope     	
+        returnvoid    	
+    0 Extras
+    0 Traits Entries
+
+    function TestPackage:BareClass::TestPackage:BareClass():
+    maxStack:1 localCount:1 initScopeDepth:4 maxScopeDepth:5
+        debugfile     	"C:\Users\aaron\Projects\Simple\src;TestPackage;BareClass.as"
+        debugline     	5
+        getlocal0     	
+        pushscope     	
+        debugline     	5
+        getlocal0     	
+        constructsuper	(0)
+        debugline     	6
+        returnvoid    	
+    0 Extras
+    0 Traits Entries
+
+    function TestPackage:BareClass:::bareFunction()::void
+    maxStack:1 localCount:1 initScopeDepth:4 maxScopeDepth:5
+        debugfile     	"C:\Users\aaron\Projects\Simple\src;TestPackage;BareClass.as"
+        debugline     	8
+        getlocal0     	
+        pushscope     	
+        debugline     	10
+        returnvoid    	
+    0 Extras
+    0 Traits Entries
+
+    function get TestPackage:BareClass:::memberVariable()::int
+    maxStack:1 localCount:1 initScopeDepth:4 maxScopeDepth:5
+        debugfile     	"C:\Users\aaron\Projects\Simple\src;TestPackage;BareClass.as"
+        debugline     	12
+        getlocal0     	
+        pushscope     	
+        debugline     	13
+        getlocal0     	
+        getproperty   	private:mMemberVariable
+        returnvalue   	
+    0 Extras
+    0 Traits Entries
+
+    function set TestPackage:BareClass:::memberVariable(:int)::void
+    maxStack:2 localCount:2 initScopeDepth:4 maxScopeDepth:5
+        debugfile     	"C:\Users\aaron\Projects\Simple\src;TestPackage;BareClass.as"
+        debugline     	16
+        getlocal0     	
+        pushscope     	
+        debug         	1 10 0 16
+        debugline     	17
+        getlocal0     	
+        getlocal1     	
+        initproperty  	private:mMemberVariable
+        debugline     	18
+        returnvoid    	
+    0 Extras
+    0 Traits Entries
+
+    function script0::script0$init():
+    maxStack:2 localCount:1 initScopeDepth:1 maxScopeDepth:3
+        getlocal0     	
+        pushscope     	
+        debugfile     	"C:\Users\aaron\Projects\Simple\src;TestPackage;BareClass.as"
+        debugline     	2
+        getscopeobject	0
+        findpropstrict	:Object
+        getproperty   	:Object
+        pushscope     	
+        findpropstrict	:Object
+        getproperty   	:Object
+        newclass      	TestPackage:BareClass
+        popscope      	
+        initproperty  	TestPackage:BareClass
+        debugfile     	"C:\Users\aaron\Projects\Simple\src;TestPackage;BareClass.as"
+        debugline     	1
+        returnvoid    	
+    0 Extras
+    0 Traits Entries
+
+  </DoABC2>
+  <DoABC2>
+    16 0 minor version
+    46 0 major version
+    0 Integer Constant Pool Entries
+    0 Unsigned Integer Constant Pool Entries
+    0 Floating Point Constant Pool Entries
+    32 String Constant Pool Entries
+     _b5e5480a5cb0197e08c6d0c1b63ed51f6913d2dc8b2c43adcc71aebc97f7fb31_flash_display_Sprite
+     
+     _b5e5480a5cb0197e08c6d0c1b63ed51f6913d2dc8b2c43adcc71aebc97f7fb31_flash_display_Sprite/_b5e5480a5cb0197e08c6d0c1b63ed51f6913d2dc8b2c43adcc71aebc97f7fb31_flash_display_Sprite
+     Security
+     flash.system
+     allowDomain
+     _b5e5480a5cb0197e08c6d0c1b63ed51f6913d2dc8b2c43adcc71aebc97f7fb31_flash_display_Sprite/allowDomainInRSL
+     void
+     domains
+     allowInsecureDomain
+     _b5e5480a5cb0197e08c6d0c1b63ed51f6913d2dc8b2c43adcc71aebc97f7fb31_flash_display_Sprite/allowInsecureDomainInRSL
+     allowDomainInRSL
+     __go_to_definition_help
+     file
+     _b5e5480a5cb0197e08c6d0c1b63ed51f6913d2dc8b2c43adcc71aebc97f7fb31_flash_display_Sprite.as
+     pos
+     602
+     allowInsecureDomainInRSL
+     910
+     flash.display
+     Sprite
+     Object
+     EventDispatcher
+     flash.events
+     DisplayObject
+     InteractiveObject
+     DisplayObjectContainer
+     ExcludeClass
+     __go_to_ctor_definition_help
+     275
+     130
+    7 Namespace Constant Pool Entries
+     private
+     flash.system
+     
+     flash.display
+     _b5e5480a5cb0197e08c6d0c1b63ed51f6913d2dc8b2c43adcc71aebc97f7fb31_flash_display_Sprite
+     flash.events
+    0 Namespace Set Constant Pool Entries
+    14 MultiName Constant Pool Entries
+    flash.system:Security
+    :allowDomain
+    :void
+    :allowInsecureDomain
+    :allowDomainInRSL
+    :allowInsecureDomainInRSL
+    :_b5e5480a5cb0197e08c6d0c1b63ed51f6913d2dc8b2c43adcc71aebc97f7fb31_flash_display_Sprite
+    flash.display:Sprite
+    :Object
+    flash.events:EventDispatcher
+    flash.display:DisplayObject
+    flash.display:InteractiveObject
+    flash.display:DisplayObjectContainer
+    5 Method Entries
+    (): 
+    _b5e5480a5cb0197e08c6d0c1b63ed51f6913d2dc8b2c43adcc71aebc97f7fb31_flash_display_Sprite/_b5e5480a5cb0197e08c6d0c1b63ed51f6913d2dc8b2c43adcc71aebc97f7fb31_flash_display_Sprite(): 
+    _b5e5480a5cb0197e08c6d0c1b63ed51f6913d2dc8b2c43adcc71aebc97f7fb31_flash_display_Sprite/allowDomainInRSL()::void 
+    _b5e5480a5cb0197e08c6d0c1b63ed51f6913d2dc8b2c43adcc71aebc97f7fb31_flash_display_Sprite/allowInsecureDomainInRSL()::void 
+    (): 
+    5 Metadata Entries
+    __go_to_definition_help file pos _b5e5480a5cb0197e08c6d0c1b63ed51f6913d2dc8b2c43adcc71aebc97f7fb31_flash_display_Sprite.as 602
+    __go_to_definition_help file pos _b5e5480a5cb0197e08c6d0c1b63ed51f6913d2dc8b2c43adcc71aebc97f7fb31_flash_display_Sprite.as 910
+    ExcludeClass
+    __go_to_ctor_definition_help file pos _b5e5480a5cb0197e08c6d0c1b63ed51f6913d2dc8b2c43adcc71aebc97f7fb31_flash_display_Sprite.as 275
+    __go_to_definition_help file pos _b5e5480a5cb0197e08c6d0c1b63ed51f6913d2dc8b2c43adcc71aebc97f7fb31_flash_display_Sprite.as 130
+    1 Instance Entries
+    :_b5e5480a5cb0197e08c6d0c1b63ed51f6913d2dc8b2c43adcc71aebc97f7fb31_flash_display_Sprite extends flash.display:Sprite 
+    2 Traits Entries
+    :allowDomainInRSL
+    :allowInsecureDomainInRSL
+    1 Class Entries
+    :_b5e5480a5cb0197e08c6d0c1b63ed51f6913d2dc8b2c43adcc71aebc97f7fb31_flash_display_Sprite extends Class 
+    0 Traits Entries
+    1 Script Entries
+    script0 
+    1 Traits Entries
+    :_b5e5480a5cb0197e08c6d0c1b63ed51f6913d2dc8b2c43adcc71aebc97f7fb31_flash_display_Sprite
+    5 Method Bodies
+    function :_b5e5480a5cb0197e08c6d0c1b63ed51f6913d2dc8b2c43adcc71aebc97f7fb31_flash_display_Sprite:::_b5e5480a5cb0197e08c6d0c1b63ed51f6913d2dc8b2c43adcc71aebc97f7fb31_flash_display_Sprite$cinit():
+    maxStack:1 localCount:1 initScopeDepth:8 maxScopeDepth:9
+        getlocal0     	
+        pushscope     	
+        returnvoid    	
+    0 Extras
+    0 Traits Entries
+
+    function :_b5e5480a5cb0197e08c6d0c1b63ed51f6913d2dc8b2c43adcc71aebc97f7fb31_flash_display_Sprite:::_b5e5480a5cb0197e08c6d0c1b63ed51f6913d2dc8b2c43adcc71aebc97f7fb31_flash_display_Sprite():
+    maxStack:1 localCount:1 initScopeDepth:9 maxScopeDepth:10
+        getlocal0     	
+        pushscope     	
+        getlocal0     	
+        constructsuper	(0)
+        returnvoid    	
+    0 Extras
+    0 Traits Entries
+
+    function :_b5e5480a5cb0197e08c6d0c1b63ed51f6913d2dc8b2c43adcc71aebc97f7fb31_flash_display_Sprite:::allowDomainInRSL()::void
+    maxStack:2 localCount:2 initScopeDepth:9 maxScopeDepth:10
+        getlocal0     	
+        pushscope     	
+        findpropstrict	flash.system:Security
+        getproperty   	flash.system:Security
+        getlocal1     	
+        callproperty  	:allowDomain (1)
+        pop           	
+        returnvoid    	
+    0 Extras
+    0 Traits Entries
+
+    function :_b5e5480a5cb0197e08c6d0c1b63ed51f6913d2dc8b2c43adcc71aebc97f7fb31_flash_display_Sprite:::allowInsecureDomainInRSL()::void
+    maxStack:2 localCount:2 initScopeDepth:9 maxScopeDepth:10
+        getlocal0     	
+        pushscope     	
+        findpropstrict	flash.system:Security
+        getproperty   	flash.system:Security
+        getlocal1     	
+        callproperty  	:allowInsecureDomain (1)
+        pop           	
+        returnvoid    	
+    0 Extras
+    0 Traits Entries
+
+    function script0::script0$init():
+    maxStack:2 localCount:1 initScopeDepth:1 maxScopeDepth:8
+        getlocal0     	
+        pushscope     	
+        getscopeobject	0
+        findpropstrict	:Object
+        getproperty   	:Object
+        pushscope     	
+        findpropstrict	flash.events:EventDispatcher
+        getproperty   	flash.events:EventDispatcher
+        pushscope     	
+        findpropstrict	flash.display:DisplayObject
+        getproperty   	flash.display:DisplayObject
+        pushscope     	
+        findpropstrict	flash.display:InteractiveObject
+        getproperty   	flash.display:InteractiveObject
+        pushscope     	
+        findpropstrict	flash.display:DisplayObjectContainer
+        getproperty   	flash.display:DisplayObjectContainer
+        pushscope     	
+        findpropstrict	flash.display:Sprite
+        getproperty   	flash.display:Sprite
+        pushscope     	
+        findpropstrict	flash.display:Sprite
+        getproperty   	flash.display:Sprite
+        newclass      	:_b5e5480a5cb0197e08c6d0c1b63ed51f6913d2dc8b2c43adcc71aebc97f7fb31_flash_display_Sprite
+        popscope      	
+        popscope      	
+        popscope      	
+        popscope      	
+        popscope      	
+        popscope      	
+        initproperty  	:_b5e5480a5cb0197e08c6d0c1b63ed51f6913d2dc8b2c43adcc71aebc97f7fb31_flash_display_Sprite
+        returnvoid    	
+    0 Extras
+    0 Traits Entries
+
+  </DoABC2>
+  <SymbolClass>
+    <Symbol idref='0' className='_b5e5480a5cb0197e08c6d0c1b63ed51f6913d2dc8b2c43adcc71aebc97f7fb31_flash_display_Sprite' />
+  </SymbolClass>
+  <ShowFrame/>
+</swf>
